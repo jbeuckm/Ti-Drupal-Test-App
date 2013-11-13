@@ -1,3 +1,5 @@
+![Screenshot](screenshot.png)
+
 # To Run The App...
 
 [TitaniumDrupalAdapter](https://github.com/jbeuckm/TitaniumDrupalAdapter) is a submodule of this repo. clone with --recursive to get the submodule code.
