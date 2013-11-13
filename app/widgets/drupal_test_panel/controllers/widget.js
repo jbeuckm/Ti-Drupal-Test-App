@@ -77,7 +77,7 @@ function clickLogin() {
 function clickLogout() {
 	
 	drupal.logout(
-		function(resp){
+		function(response){
 			setStatus('logged out');
 			alert(response);
 		},
