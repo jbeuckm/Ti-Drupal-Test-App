@@ -5,21 +5,33 @@ exports.setDrupal = function(d) {
 };
 
 
+function enableControl(c) {
+	c.opacity = 1;
+	c.enabled = true;
+}
+function disableControl(c) {
+	c.opacity = .5;
+	c.enabled = false;
+}
+
+
 function setStatus(status) {
 	switch (status) {
 
 		case 'logged in':
-			$.logoutButton.enabled = true;
-			$.loginButton.enabled = false;
-			$.email.enabled = false;
-			$.registerButton.enabled = false;
+			enableControl($.logoutButton);
+
+			disableControl($.loginButton);
+			disableControl($.email);
+			disableControl($.registerButton);
 			break;
 
 		case 'logged out':
-			$.logoutButton.enabled = false;
-			$.loginButton.enabled = true;
-			$.email.enabled = true;
-			$.registerButton.enabled = true;
+			disableControl($.logoutButton);
+			
+			enableControl($.loginButton);
+			enableControl($.email);
+			enableControl($.registerButton);
 			break;
 	}
 	

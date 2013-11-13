@@ -38,6 +38,7 @@ Button: {
 	height: 28,
 	color: '#fff',
 	backgroundColor: '#27b',
+	backgroundDisabledColor: "#666",
 	width: 200,
 	top: 5,
 	bottom: 5
