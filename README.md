@@ -2,7 +2,7 @@
 
 (TitaniumDrupalAdapter)[https://github.com/jbeuckm/TitaniumDrupalAdapter] is a submodule of this repo. clone with --recursive to get the submodule code.
 
-Rename `config.js.example` to `config.js` and enter the url of your Drupal install and your service endpoint.
+Rename `app/lib/drupal/config.js.example` to `app/lib/drupal/config.js` and enter the url of your Drupal 7 install and your Services 3.4+ REST/JSON endpoint.
 
 
 # Jasmine
