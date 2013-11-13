@@ -1,0 +1,30 @@
+<Alloy>
+
+	<Window id="win">
+		
+		<ImageView id="logo"/>
+		
+		<View class="fieldHolder">
+			<Label class="fieldLabel">Email:</Label>
+			<TextField class="fieldInput" id="email"/>
+		</View>
+		
+		<View class="fieldHolder">
+			<Label class="fieldLabel">Username:</Label>
+			<TextField class="fieldInput" id="username"/>
+		</View>
+		
+		<View class="fieldHolder">
+			<Label class="fieldLabel">Password:</Label>
+			<TextField class="fieldInput" id="password" passwordMask="true"/>
+		</View>
+		
+		<Button id="registerButton" onClick="clickRegister">Register</Button>
+		
+		<Button id="loginButton" onClick="clickLogin">Login</Button>
+	
+		<Button id="logoutButton" onClick="clickLogout">Logout</Button>
+		
+	</Window>
+
+</Alloy>

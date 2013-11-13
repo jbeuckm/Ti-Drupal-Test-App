@@ -1,0 +1,43 @@
+
+'#win': {
+	layout: 'vertical',
+	backgroundColor: '#000'
+}
+"#logo": {
+	image: WPATH("drupal-logo-text.png")
+}
+'.fieldHolder': {
+	width: Ti.UI.FILL,
+	height: 30,
+	layout: 'horizontal'
+}
+'.fieldLabel': {
+	width: 100,
+	left: 10,
+	color: "#bbb"
+}
+'.fieldInput': {
+	width: 180,
+	borderWidth: 1,
+	borderColor: '#666',
+	right: 5,
+	color: "#eee"
+}
+"#email": {
+	keyboardType: Ti.UI.KEYBOARD_EMAIL	
+}
+
+'#statusLabel': {
+	height: 30,
+	width: '100%',
+	textAlign: 'center'
+}
+
+Button: {
+	height: 28,
+	color: '#fff',
+	backgroundColor: '#27b',
+	width: 200,
+	top: 5,
+	bottom: 5
+}
