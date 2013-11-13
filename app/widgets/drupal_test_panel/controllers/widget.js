@@ -79,7 +79,7 @@ function clickLogout() {
 	drupal.logout(
 		function(resp){
 			setStatus('logged out');
-			Ti.API.info(resp);
+			alert(response);
 		},
 		function(err){
 			alert(err);
