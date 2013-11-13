@@ -21,7 +21,8 @@
 	borderWidth: 1,
 	borderColor: '#666',
 	right: 5,
-	color: "#eee"
+	color: "#eee",
+	autocapitalization: Ti.UI.TEXT_AUTOCAPITALIZATION_NONE	
 }
 "#email": {
 	keyboardType: Ti.UI.KEYBOARD_EMAIL	
