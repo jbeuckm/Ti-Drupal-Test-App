@@ -1,9 +1,11 @@
 
 '#win': {
 	layout: 'vertical',
-	backgroundColor: '#000'
+	backgroundColor: '#000',
+	statusBarStyle:Titanium.UI.iPhone.StatusBar.LIGHT_CONTENT
 }
 "#logo": {
+	top: 20,
 	image: WPATH("drupal-logo-text.png")
 }
 '.fieldHolder': {
