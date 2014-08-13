@@ -1,5 +1,6 @@
 
-drupal = require("drupal/drupal");
+var drupal = require("drupal/lib/drupal");
+drupal.setRestPath('<drupal-base-url-with-trailing-slash>', '<services-endpoint>');
 Alloy.Globals.drupal = drupal;
 
 
