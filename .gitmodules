@@ -1,3 +1,0 @@
-[submodule "app/lib/drupal"]
-	path = app/lib/drupal
-	url = git@github.com:jbeuckm/TitaniumDrupalAdapter.git
