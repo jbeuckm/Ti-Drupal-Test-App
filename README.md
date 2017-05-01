@@ -1,3 +1,8 @@
+If you want to develop mobile apps with Drupal as backend you might want to check out this <a href="https://www.app-development.guide/appcelerator-drupalgap-comparison" target="new">SDK client video</a> comparing Drupalgap and the ADG app (using this library).
+
+About www.app-development.guide: <a href="https://www.slideshare.net/AppDevelopmentGuide/app-development-guide-table-of-content">slides</a> and <a href="https://www.app-development.guide/video-tutorials" target="new">(premium) tutorials</a>
+
+
 ![Screenshot](screenshot.png)
 
 # To Run The App...
