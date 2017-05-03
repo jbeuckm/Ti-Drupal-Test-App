@@ -18,6 +18,6 @@ Rename `app/lib/drupal/config.js.example` to `app/lib/drupal/config.js` and ente
 
 # Jasmine
 
-The included spec is intended to be run with [TiShadow](https://github.com/dbankier/TiShadow) + [Jasmine](http://pivotal.github.io/jasmine/). 
+The included spec is intended to be run with [TiShadow](https://github.com/dbankier/TiShadow) + [Jasmine](https://jasmine.github.io/). 
 
 
